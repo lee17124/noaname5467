@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Special Text</title>
+    <style>
+        body {
+            background-color: #D0D0D0;
+            background-image: url('https://cdn.pixabay.com/photo/2022/12/01/04/42/man-7628305_1280.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Arial Black', sans-serif; 
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        p {
+            font-size: 18px;
+            color: #333; 
+            font-weight: bold; 
+            border: 2px solid black; 
+            padding: 10px;
+            display: inline-block;
+            margin-top: 20px;
+            background-color: grey; 
+        }
+
+        .decorated {
+            background-color: grey 
+            color: white; 
+            padding: 10px 20px;
+            border-radius: 20px; 
+            font-family: 'Georgia', serif; 
+            font-style: italic; 
+        }
+
+        .animated {
+            animation: bounce 1s infinite alternate; 
+        }
+
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <h1>无名客网站</h1>
+    <p>家人们，我是无名客啊,noname.没什么东西，就这样。</p>
+    <p class="decorated animated">后续会增加游戏等等的东西在我的网站。</p>
+</body>
+</html>
